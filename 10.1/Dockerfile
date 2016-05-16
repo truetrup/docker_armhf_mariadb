@@ -15,7 +15,7 @@ RUN mkdir /docker-entrypoint-initdb.d
 RUN apt-get install --no-install-recommends --no-install-suggests -y --force-yes \
 	# install "pwgen" for randomizing passwords
 	pwgen \
-	socat \
+	socat
 
 
 RUN { \
